@@ -1,0 +1,18 @@
+/* Margin */
+.m10 {margin: 10px;}
+.m25 {margin: 25px;}
+.m50 {margin: 50px;}
+.m100 {margin: 100px;}
+.mAuto {margin: auto;}
+
+.mx {margin-left: 100px; margin-right: 100px;}
+.my {margin-top: 100px; margin-bottom: 100px;}
+
+/* Padding */
+.p10 {padding: 10px;}
+.p25 {padding: 25px;}
+.p50 {padding: 50px;}
+.p100 {padding: 100px;}
+
+.px {padding-left: 0.5rem; padding-right: 0.5rem;}
+.py {padding-top: 0.5rem; padding-top: 0.5rem;}

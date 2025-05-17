@@ -1,0 +1,97 @@
+:root {
+    /* Blue */
+    --blue: #0000FF;
+    --blue-dark: #00008b;
+    --blue-light: #Add8e6;
+    --blue-ice: #99FFFF;
+    --blue-black-ice: #22486D;
+    --blue-navy: #000080;
+    --blue-sky: #63C5DA;
+    --blue-air-force: #5D8AA8;
+    --blue-ocean: #016064;
+    --blue-berry: #241571;
+    --blue-lapis: #2832C2;
+    --blue-aegean: #1520A6;
+    --blue-cobalt: #1338BE;
+    --blue-yankees: #1c2841;
+    --blue-midnight: #000036;
+
+    /* Green */
+    --green: #008000;
+    --green-dark: #013220;
+    --green-light: #90ee90;
+    --green-forest: #228b22;
+    --green-pale: #98fb98;
+    --green-lime: #00ff00;
+    --green-yellow: #adff2f;
+    --green-apple: #8db600;
+    --green-camouflage: #78866b;
+    --green-russian: #679267;
+    --green-volt: #ceff00;
+    --green-sea: #2e8b57;
+    --green-mint: #3eb489;
+    --green-soldier: #545a2c;
+    --green-citron: #9fa91f;
+    --green-olive: #808000;
+
+    /* Red */
+    --red: #ff0000;
+    --red-dark: #8b0000;
+    --red-orange: #ff4500;
+    --red-ruby: #9b111e;
+    --red-candy: #ff0800;
+    --red-candy-dark: #a40000;
+    --red-ferrari: #ff2800;
+    --red-lava: #cf1020;
+    --red-carmine: #960018;
+    --red-rufous: #a81c07;
+    --red-fire-engine: #ce2029;
+
+    /* Black */
+    --black: #000;
+    --black-vampire: #080808;
+    --black-licorice: #1a1110;
+
+    /* White */
+    --white: #fff;
+    --white-ghost: #f8f8ff;
+    --white-snow: #fffafa;
+    --white-smoke: #f5f5f5;
+    --white-mint-cream: #f5fffa;
+    --white-milk: #fdfff5;
+
+    /* Purple */
+    --purple: #800080;
+    --purple-slate-blue: #6a5acd;
+    --purple-lavender: #e6e6fa;
+    --purple-indigo: #4b0082;
+    --purple-tyrian-purple: #66023c;
+    --purple-iris: #5a4fcf;
+    --purple-toolbox: #746cc0;
+
+    /* Yellow */
+    --yellow: #ffff00;
+    --yellow-light: #ffffe0;
+    --yellow-titanium: #eee600;
+    --yellow-watermelon: #eeff1b;
+    --yellow-banana: #ffe135;
+    --gold: #ffd700;
+    --gold-poppy: #fcc200;
+    --gold-harvest: #da9100;
+
+    /* Orange */
+    --orange: #ffa500;
+    --orange-dark: #ff8c00;
+    --orange-spanish: #e86100;
+    --orange-willpower: #fd5800;
+    --orange-sinopia: #cb410b;
+
+    /* Brown */
+    --brown: #a52a2a;
+    --brown-old: #964b00;
+    --brown-chocolate: #d2691e;
+    --brown-saddle: #8b4513;
+    --brown-donkey: #664c28;
+    --brown-otter: #654321;
+    --brown-coconut: #965a3e;
+}

@@ -1,0 +1,95 @@
+@import url('../utilities/color.css');
+@import url('../css/main.css');
+
+/* Colors can be adapted yourself! */
+
+/* ----3d Button---- */
+.BTN3d {
+    font-family: var(--font-base);
+    display: inline-block;
+    margin: 0 8px;
+    padding: 10px 16px;
+    font-size: 24px;
+    color: var(--white);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: #005aff;
+    box-shadow: 6px 6px 0 #002d81;
+    cursor: pointer;
+}
+
+.BTN3d:active {
+    transform: translateX(2px) translateY(2px);
+    box-shadow: 4px 4px 0 #002d81;
+}
+
+/* ----Glow Button---- */
+
+.BTNglow {
+    font-family: var(--font-base);
+    color: var(--white);
+    background-color: var(--red-fire-engine);
+    box-shadow: 0px 0px 20px var(--red-fire-engine);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.BTNglow:hover {
+    box-shadow: 0 0 5px var(--red-fire-engine),
+              0 0 25px var(--red-fire-engine),
+              0 0 50px var(--red-fire-engine),
+              0 0 100px var(--red-fire-engine);
+}
+
+/* ----Glass Button---- */
+.BTNglass {
+    font-family: var(--font-base);
+    color: var(--white);
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+/* Pulse Button from Uiverse.io by niat786 */ 
+.BTNpulse {
+    font-family: var(--font-base);
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    cursor: pointer;
+}
+   
+.BTNpulse:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+   
+@keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
