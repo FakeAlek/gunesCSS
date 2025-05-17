@@ -16,8 +16,6 @@
 - `.bounce`, `.bounceInf`
 - `.float`
 
-> All animations use `animation-fill-mode: forwards` and can be applied directly via class names.
-
 ### 🖱️ Button Styles (`buttons.css`)
 - `.BTN3d`, `.BTNglow`, `.BTNglass`, `.BTNpulse`
 - Includes hover and active effects
