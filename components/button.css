@@ -14,14 +14,14 @@
     text-decoration: none;
     border: none;
     outline: none;
-    background-color: #005aff;
-    box-shadow: 6px 6px 0 #002d81;
+    background-color: #5a5a5a;
+    box-shadow: 6px 4px 0 #000000, 1px 4px 0 #000000;
     cursor: pointer;
 }
 
 .BTN3d:active {
     transform: translateX(2px) translateY(2px);
-    box-shadow: 4px 4px 0 #002d81;
+    box-shadow: 4px 2px 0 #000000, 0px 2px 0 #000000;
 }
 
 /* ----Glow Button---- */

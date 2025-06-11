@@ -5,14 +5,14 @@
     margin: 10px;
 }
 
-.top-left {
+.topLeft {
     position: absolute;
     top: 0;
     left: 0;
     margin: 10px;
 }
 
-.top-right {
+.topRight {
     position: absolute;
     top: 0;
     right: 0;
@@ -26,13 +26,13 @@
     transform: translate(-50%, -50%);
 }
 
-.center-left {
+.centerLeft {
     position: absolute;
     top: 50%;
     left: 0;
 }
 
-.center-right {
+.centerRight {
     position: absolute;
     top: 50%;
     right: 0;
@@ -45,14 +45,14 @@
     margin: 10px;
 }
 
-.below-left {
+.belowLeft {
     position: absolute;
     bottom: 0;
     left: 0;
     margin: 10px;
 }
 
-.below-right {
+.belowRight {
     position: absolute;
     bottom: 0;
     right: 0;

@@ -1,5 +1,7 @@
 @import url('../animations/fade.css'); /* <--- This is just an example, there are many more animations */
-@import url('../animations/rainbow.css');
+@import url('../components/button.css');
+
+/* Es geht jetzt auch Online, erwähne es auf GitHub: https://fakealek.github.io/gunesCSS/animations/bounce.css */
 
 * {
     margin: 0;
