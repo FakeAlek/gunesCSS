@@ -1,7 +1,19 @@
-@import url('../animations/fade.css'); /* <--- This is just an example, there are many more animations */
-@import url('../components/button.css');
+/* Animations */
+@import url('../animations/bounce.css');
+@import url('../animations/fade.css');
+@import url('../animations/float.css');
+@import url('../animations/pulse.css');
+@import url('../animations/rainbow.css');
 
-/* Es geht jetzt auch Online, erwähne es auf GitHub: https://fakealek.github.io/gunesCSS/animations/bounce.css */
+/* Components */
+@import url('../components/button.css');
+@import url('../components/card.css');
+
+/* Utilities */
+@import url('../utilities/color.css');
+@import url('../utilities/positions.css');
+@import url('../utilities/spacing.css');
+/* It is now also online, mention it on Github: https://fakealek.github.io/gunesCSS/css/main.css */
 
 * {
     margin: 0;

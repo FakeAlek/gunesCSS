@@ -1,0 +1,83 @@
+@import url('../css/main.css');
+
+* {
+    font-family: var(--font-base);
+}
+
+/* ----Easy---- */
+.CARD {
+    text-align: left;
+    color: var(--white);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 50px;
+    margin: 5px 0 5px 0;
+    line-height: 1.5;
+}
+
+.CARD.center {
+    text-align: center;
+}
+
+.CARD.right {
+    text-align: right;
+}
+
+/* ----Glow Button---- */
+.CARDglow {
+    color: var(--white);
+    background-color: var(--red-fire-engine);
+    box-shadow: 0px 0px 20px var(--red-fire-engine);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding: 50px;
+    margin: 5px 0 5px 0;
+    line-height: 1.5;
+}
+
+/* ----Glass Card---- */
+.CARDglass {
+    text-align: left;
+    color: var(--white);
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 50px;
+    margin: 5px 0 5px 0;
+    line-height: 1.5;
+}
+
+/* Pulse Button from Uiverse.io by niat786 */ 
+.CARDpulse {
+    border: none;
+    color: #fff;
+    background-color: var(--blue-air-force);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: cardpulse512 1.5s infinite;
+}
+
+@keyframes cardpulse512 {
+    0% {
+     box-shadow: 0 0 0 0 var(--blue-air-force);
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}

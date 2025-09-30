@@ -1,11 +1,13 @@
-@import url('../utilities/color.css');
 @import url('../css/main.css');
 
 /* Colors can be adapted yourself! */
 
+* {
+    font-family: var(--font-base);
+}
+
 /* ----3d Button---- */
 .BTN3d {
-    font-family: var(--font-base);
     display: inline-block;
     margin: 0 8px;
     padding: 10px 16px;
@@ -27,7 +29,6 @@
 /* ----Glow Button---- */
 
 .BTNglow {
-    font-family: var(--font-base);
     color: var(--white);
     background-color: var(--red-fire-engine);
     box-shadow: 0px 0px 20px var(--red-fire-engine);
@@ -48,7 +49,6 @@
 
 /* ----Glass Button---- */
 .BTNglass {
-    font-family: var(--font-base);
     color: var(--white);
     padding: 10px;
     background: rgba(255, 255, 255, 0.2);
@@ -62,7 +62,6 @@
 
 /* Pulse Button from Uiverse.io by niat786 */ 
 .BTNpulse {
-    font-family: var(--font-base);
     border: none;
     color: #fff;
     background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
@@ -82,7 +81,7 @@
    
 @keyframes pulse512 {
     0% {
-     box-shadow: 0 0 0 0 #05bada66;
+     box-shadow: 0 0 0 0 var(--blue-air-force);
     }
    
     70% {
